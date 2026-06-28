@@ -14,9 +14,9 @@ export const PROFILE = {
     "Cette double casquette — ingénierie et design — me permet de livrer des produits cohérents de bout en bout, où la technique sert toujours l'expérience.",
     "Les quatre projets ci-dessous illustrent cette polyvalence : deux applications fullstack avec authentification et temps réel, et deux sites vitrines centrés sur l'esthétique et la performance.",
   ],
-  email: "moussabulls1@gmail.com",
-  github: "https://github.com/", // ← votre profil GitHub
-  linkedin: "https://www.linkedin.com/", // ← votre profil LinkedIn
+  email: "moussa.bam.pro@gmail.com",
+  github: "https://github.com/MoussaBamba93400", // ← votre profil GitHub
+  linkedin: "https://www.linkedin.com/in/moussabamba20/", // ← votre profil LinkedIn
 };
 
 export const SKILLS = [
@@ -80,7 +80,7 @@ export const PROJECTS: Project[] = [
     description:
       "Site vitrine pour un restaurant gastronomique. Direction artistique « luxe discret », galerie avec lightbox et animations au scroll.",
     tags: ["Next.js", "CSS Modules", "next/image"],
-    live: "https://flavor.example.com",
+    live: "https://flavor-9xjcggc5o-moussabulls2-8201s-projects.vercel.app/",
     repo: "https://github.com/MoussaBamba93400/flavor",
     accent: "#c9a96e",
   },
