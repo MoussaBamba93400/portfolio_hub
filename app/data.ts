@@ -69,7 +69,7 @@ export const PROJECTS: Project[] = [
     description:
       "Micro-réseau social pour développeurs : feed paginé, profils publics, likes et commentaires. API Express et authentification Supabase.",
     tags: ["Next.js", "Express", "Supabase", "REST"],
-    live: "https://devconnect.example.com",
+    live: "https://devconnect-nine-jade.vercel.app/",
     repo: "https://github.com/MoussaBamba93400/devconnect",
     accent: "#6366f1",
   },
