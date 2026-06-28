@@ -21,12 +21,17 @@ export const PROFILE = {
 
 export const SKILLS = [
   "TypeScript",
+  "JavaScript",
+  "Laravel",
+  "PHP",
+  "Docker",
   "React",
   "Next.js",
   "Node.js",
   "Express",
   "PostgreSQL",
   "Supabase",
+  "Tailwind CSS",
   "CSS / Design Systems",
   "REST API",
   "Vercel",
@@ -53,8 +58,8 @@ export const PROJECTS: Project[] = [
     description:
       "Dashboard Kanban avec authentification, projets et tâches en drag & drop. API REST Express et base Postgres sécurisée par RLS.",
     tags: ["Next.js", "Express", "Supabase", "dnd-kit"],
-    live: "https://taskflow.example.com", // ← URL de votre déploiement
-    repo: "https://github.com/", // ← lien GitHub
+    live: "https://taskflow-rho-teal.vercel.app/", // ← URL de votre déploiement
+    repo: "https://github.com/MoussaBamba93400/taskflow", // ← lien GitHub
     accent: "#3b82f6",
   },
   {
@@ -65,7 +70,7 @@ export const PROJECTS: Project[] = [
       "Micro-réseau social pour développeurs : feed paginé, profils publics, likes et commentaires. API Express et authentification Supabase.",
     tags: ["Next.js", "Express", "Supabase", "REST"],
     live: "https://devconnect.example.com",
-    repo: "https://github.com/",
+    repo: "https://github.com/MoussaBamba93400/devconnect",
     accent: "#6366f1",
   },
   {
@@ -76,7 +81,7 @@ export const PROJECTS: Project[] = [
       "Site vitrine pour un restaurant gastronomique. Direction artistique « luxe discret », galerie avec lightbox et animations au scroll.",
     tags: ["Next.js", "CSS Modules", "next/image"],
     live: "https://flavor.example.com",
-    repo: "https://github.com/",
+    repo: "https://github.com/MoussaBamba93400/flavor",
     accent: "#c9a96e",
   },
   {
@@ -86,8 +91,8 @@ export const PROJECTS: Project[] = [
     description:
       "Site vitrine pour une agence d'architecture. Minimalisme suisse, grille stricte, pages projets et reveals géométriques.",
     tags: ["Next.js", "CSS Modules", "SSG"],
-    live: "https://archex.example.com",
-    repo: "https://github.com/",
+    live: "https://archex-nc0zdvini-moussabulls2-8201s-projects.vercel.app",
+    repo: "https://github.com/MoussaBamba93400/archex",
     accent: "#c45d3e",
   },
 ];
