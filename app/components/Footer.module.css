@@ -1,0 +1,46 @@
+.footer {
+  border-top: 1px solid var(--border);
+  padding-block: 2.5rem;
+}
+
+.inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.brand {
+  font-family: var(--font-display), sans-serif;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+.dot {
+  color: var(--accent);
+}
+
+.note {
+  font-size: 0.85rem;
+  color: var(--text-dim);
+}
+
+.social {
+  display: flex;
+  gap: 1.5rem;
+}
+.social a {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  transition: color 0.2s ease;
+}
+.social a:hover {
+  color: var(--accent-bright);
+}
+
+@media (max-width: 600px) {
+  .inner {
+    flex-direction: column;
+    text-align: center;
+  }
+}

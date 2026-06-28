@@ -1,0 +1,93 @@
+// ─────────────────────────────────────────────────────────────
+// Personnalisez ce fichier : informations personnelles + projets.
+// Les URLs `live` pointent vers vos déploiements Vercel.
+// ─────────────────────────────────────────────────────────────
+
+export const PROFILE = {
+  name: "Moussa",
+  fullName: "Moussa", // ← remplacez par votre nom complet
+  title: "Développeur Fullstack",
+  tagline:
+    "Je conçois des produits web complets — de la base de données à la dernière animation — avec autant de soin pour le code que pour le pixel.",
+  about: [
+    "Développeur fullstack, je travaille aussi bien sur l'architecture d'une API et la modélisation de données que sur la direction artistique d'une interface.",
+    "Cette double casquette — ingénierie et design — me permet de livrer des produits cohérents de bout en bout, où la technique sert toujours l'expérience.",
+    "Les quatre projets ci-dessous illustrent cette polyvalence : deux applications fullstack avec authentification et temps réel, et deux sites vitrines centrés sur l'esthétique et la performance.",
+  ],
+  email: "moussabulls1@gmail.com",
+  github: "https://github.com/", // ← votre profil GitHub
+  linkedin: "https://www.linkedin.com/", // ← votre profil LinkedIn
+};
+
+export const SKILLS = [
+  "TypeScript",
+  "React",
+  "Next.js",
+  "Node.js",
+  "Express",
+  "PostgreSQL",
+  "Supabase",
+  "CSS / Design Systems",
+  "REST API",
+  "Vercel",
+];
+
+export type ProjectKind = "Fullstack" | "Vitrine";
+
+export type Project = {
+  slug: string;
+  name: string;
+  kind: ProjectKind;
+  description: string;
+  tags: string[];
+  live: string; // URL de la démo déployée
+  repo: string; // URL du dépôt GitHub
+  accent: string;
+};
+
+export const PROJECTS: Project[] = [
+  {
+    slug: "taskflow",
+    name: "TaskFlow",
+    kind: "Fullstack",
+    description:
+      "Dashboard Kanban avec authentification, projets et tâches en drag & drop. API REST Express et base Postgres sécurisée par RLS.",
+    tags: ["Next.js", "Express", "Supabase", "dnd-kit"],
+    live: "https://taskflow.example.com", // ← URL de votre déploiement
+    repo: "https://github.com/", // ← lien GitHub
+    accent: "#3b82f6",
+  },
+  {
+    slug: "devconnect",
+    name: "DevConnect",
+    kind: "Fullstack",
+    description:
+      "Micro-réseau social pour développeurs : feed paginé, profils publics, likes et commentaires. API Express et authentification Supabase.",
+    tags: ["Next.js", "Express", "Supabase", "REST"],
+    live: "https://devconnect.example.com",
+    repo: "https://github.com/",
+    accent: "#6366f1",
+  },
+  {
+    slug: "flavor",
+    name: "Flavor",
+    kind: "Vitrine",
+    description:
+      "Site vitrine pour un restaurant gastronomique. Direction artistique « luxe discret », galerie avec lightbox et animations au scroll.",
+    tags: ["Next.js", "CSS Modules", "next/image"],
+    live: "https://flavor.example.com",
+    repo: "https://github.com/",
+    accent: "#c9a96e",
+  },
+  {
+    slug: "archex",
+    name: "Archex",
+    kind: "Vitrine",
+    description:
+      "Site vitrine pour une agence d'architecture. Minimalisme suisse, grille stricte, pages projets et reveals géométriques.",
+    tags: ["Next.js", "CSS Modules", "SSG"],
+    live: "https://archex.example.com",
+    repo: "https://github.com/",
+    accent: "#c45d3e",
+  },
+];
